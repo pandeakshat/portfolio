@@ -5,6 +5,7 @@ import { Image } from "astro:assets"
 import Layout from "@/layouts/Layout.astro";
 import SocialLinks from "@/components/SocialLinks.astro";
 import PostCard from "@/components/PostCard.astro";
+import PostCardCode from "@/components/PostCardCode.astro";
 import ProjectCard from "@/components/ProjectCard.astro";
 import Link from "@/components/shared/Link.astro";
 import convertAsteriskToStrongTag from "@/utils/convertAsteriskToStrongTag";
@@ -93,7 +94,7 @@ const posts = (await getCollection("posts"))
             codes
               .slice(0, 2)
               .map((code) => (
-                <PostCard
+                <PostCardCode
                   publishedAt={code.data.publishedAt}
                   title={code.data.title}
                   description={code.data.description}
