@@ -9,27 +9,27 @@ const projects: Project[] = [
   {
     title: "Carbon Activity",
     techs: ["Python", "TypeScript"],
-    link: "https://puppetfactory.app/",
+    link: "https://github.com/pandeakshat/Carbon-Activity",
   },
   {
     title: "Property NFT Marketplace",
     techs: ["Web3, Solidity, React"],
-    link: "https://github.com/MaeWolff/create-nextjs-app-bash-script",
+    link: "https://github.com/pandeakshat/property-nft",
   },
   {
     title: "Scribe Solace",
     techs: ["Python", "TypeScript"],
-    link: "https://github.com/MaeWolff/dictionary-app",
+    link: "https://github.com/exp-er/scribe-solace",
   },
   {
     title: "Customer Sentiment Analysis",
     techs: ["Python", "BeautifulSoup4", "NLTK"],
-    link: "https://github.com/MaeWolff/astro-portfolio-template",
+    link: "https://github.com/pandeakshat/customer-sentiment-analysis",
   },
   {
-    title: "GrowthTrack (FitBase, JobTrack)",
-    techs: ["Python", "BeautifulSoup4", "NLTK"],
-    link: "https://github.com/MaeWolff/astro-portfolio-template",
+    title: "Anime Wisdom Vault",
+    techs: ["Python", "Firebase", "NLTK"],
+    link: "https://github.com/exp-er/AnimeWisdomVault",
     isComingSoon: true,
   }
 ];
